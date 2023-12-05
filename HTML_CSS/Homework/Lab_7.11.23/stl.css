@@ -1,0 +1,212 @@
+body {
+    border: 1px red solid;
+    width: 80%;
+    padding: 0;
+}
+
+main {
+    clear: both;
+    height: 350px;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+header {
+    background-color: plum;
+    height: 200px;
+    clear: both;
+}
+
+.white {
+    background-color: white;
+    width: 60%;
+    height: 150px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+.black {
+    background-color: black;
+    width: 60%;
+    height: 100px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20%;
+}
+
+/* menu */
+menu {
+    background-color: gray;
+    height: 150px;
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+.red, .orange, .blue, .yellow {
+    width: 25%;
+    height: 100px;
+    margin-top: 10px;
+}
+.red {
+    background-color: red;
+    float: left;
+}
+
+.orange {
+    background-color: orange;
+    float: left;
+}
+
+.blue {
+    background-color: lightblue;
+    float: left;
+}
+
+.yellow {
+    background-color: yellow;
+    float: right;
+}
+
+
+
+/* section 1 */
+
+.sec_1 {
+    background-color: green;
+    width: 33.33%;
+    height: 350px;
+    float: left;
+}
+
+.lft {
+    background-color: orange;
+    width: 60%;
+    height: 300px;
+    float: left;
+    margin: 31.5px 0 0 80px;
+}
+
+.lft1 {
+    background-color: pink;
+    width: 50%;
+    height: 250px;
+    float: left;
+    margin-top: 32px;
+}
+
+.lft2 {
+    background-color: yellow;
+    width: 50%;
+    height: 250px;
+    float: right;
+    margin-top: 32px;
+}
+
+
+/* section 2 */
+
+.sec_2 {
+    background-color: lightblue;
+    width: 33.33%;
+    height: 350px;
+    float: left;
+}
+
+.cntr {
+    background-color: red;
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    margin-top: 31.5px;
+}
+
+.cntr1 {
+    background-color: yellow;
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    margin-top: 31.5px;
+}
+
+
+.cntr2 {
+    background-color: orange;
+    width: 33.33%;
+    height: 300px;
+    float: right;
+    margin-top: 31.5px;
+}
+
+.a_c {
+    background-color: orange;
+    width: 50%;
+    height: 250px;
+    float: left;
+    margin-top: 32px;
+}
+
+.b_c {
+    background-color: red;
+    width: 50%;
+    height: 150px;
+    float: right;
+    margin-top: 132px;
+}
+
+/* section 3 */
+
+.sec_3 {
+    background-color: blue;
+    width: 33.33%;
+    height: 350px;
+    float: right;
+}
+
+.rght {
+    background-color: lightblue;
+    width: 33.33%;
+    height: 150px;
+    float: left;
+    margin-top: 181.5px;
+}
+
+.rght1 {
+    background-color: yellow;
+    width: 33.33%;
+    height: 200px;
+    float: left;
+    margin-top: 100px;
+}
+
+.rght2 {
+    background-color: orange;
+    width: 33.33%;
+    height: 200px;
+    float: right;
+    margin-top: 35px;
+}
+
+.txt, .txt1 {
+    background-color: black;
+    color: lightblue;
+    padding: 5px 10px;
+    font-style: italic;
+    width: 50%;
+}
+
+.txt {
+    float: right;
+    margin-top: 40px;
+}
+
+.txt1 {
+    float: left;
+    margin-top: 40px;
+}
