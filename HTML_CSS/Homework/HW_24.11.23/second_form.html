@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stl_sf.css">
+    <title>Second form</title>
+</head>
+<body>
+    <div class="form">
+        <form action="" class="form-inner">
+            <h3>Fill in the details:</h3>
+            <p><label for="sort">Sorting</label></p> 
+            <select>
+                <option value="1">From cheap</option>
+                <option value="2">From expensive</option>
+                <option value="3" selected>By rating</option>
+            </select>
+            <p><label for="product_type">Product type:</label></p>
+            <select>
+                <option value="">--Please choose a product--</option>
+                <option value="phone">Phones</option>
+                <option value="lep">Leptops</option>
+                <option value="v-cl">Vacuum_cleaner</option>
+                <option value="charg">Chargers</option>
+            </select>
+            <p><label for="power">Select the power:</label></p>
+            <ul>
+                <li>
+                    <input type="checkbox" id="15" value="15w">
+                    <label for="15">15w</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="25" value="25w">
+                    <label for="25">25w</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="65" value="65w">
+                    <label for="65">65w</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="100" value="100w">
+                    <label for="100">100w</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="200" value="200w">
+                    <label for="200">200w</label>
+                </li>
+            </ul>
+            <p><label for="brand">Select a brand:</label></p>
+            <ul>
+                <li>
+                    <input type="checkbox" id="sm" value="Samsung">
+                    <label for="sm">Samsung</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="lg" value="LG">
+                    <label for="lg">LG</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="as" value="Asus">
+                    <label for="as">Asus</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="ln" value="Lenovo">
+                    <label for="ln">Lenovo</label>
+                </li>
+            </ul>
+            <p><label for="model">Model name</label></p>
+            <input type="text" placeholder="Enter model" id="model" name="model"><br>
+            <input type="submit" value="Submit"> 
+        </form>
+    </div> 
+    <iframe src="first_form.html" frameborder="0" width="400" height="400"></iframe>
+</body>
+</html>
