@@ -1,0 +1,229 @@
+body {
+    border: 1px red solid;
+    width: 80%;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+header {
+    background-color: plum;
+    height: 200px;
+    
+}
+
+.head {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+
+.white {
+    background-color: white;
+    height: 150px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+    
+}
+.black {
+    background-color: black;
+    height: 100px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    align-self: center;
+}
+
+/* menu */
+menu {
+    background-color: gray;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.red, .orange, .blue, .yellow {
+    height: 100px;
+    margin-top: 10px;
+}
+.red {
+    background-color: red;
+}   
+
+.orange {
+    background-color: orange;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+main {
+    height: 350px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+/* section 1 */
+
+.sec_1 {
+    background-color: green;
+    height: 350px;
+    display: grid;
+    grid-template-rows: 30px auto; 
+}
+
+.lblock  {
+    background-color: orange;
+    width: 60%;
+    height: 300px;
+    justify-self: center;
+    align-self: end;
+    display: grid;
+    grid-template-rows: 30px auto;
+}
+
+.lft {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: end;
+}
+
+.lft1 {
+    background-color: pink;
+    height: 250px;
+}
+
+.lft2 {
+    background-color: yellow;
+    height: 250px; 
+}
+
+
+/* section 2 */
+
+.sec_2 {
+    background-color: lightblue;
+    height: 350px;
+    display: grid;
+    grid-template-rows: 30px auto; 
+}
+
+.cblock {
+    align-self: end;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cntr {
+    background-color: red;
+    height: 300px;
+}
+
+.cntr1 {
+    background-color: yellow;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 30px auto; 
+}
+
+.ab_c {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.a_c {
+    background-color: orange;
+    height: 250px;
+    align-self: end;
+}
+
+.b_c {
+    background-color: red;
+    height: 150px;
+    align-self: end;
+}
+
+.cntr2 {
+    background-color: orange;
+    height: 300px;
+}
+
+
+
+/* section 3 */
+
+.sec_3 {
+    background-color: blue;
+    height: 350px;
+    display: grid;
+    grid-template-rows: 30px auto;
+}
+
+.rblock {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.rght {
+    background-color: lightblue;
+    height: 150px;
+    align-self: self-end;
+}
+
+.rght1 {
+    background-color: yellow;
+    height: 200px;
+    align-self: center;
+}
+
+.rght2 {
+    background-color: orange;
+    height: 200px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.txt, .txt1 {
+    background-color: black;
+    color: lightblue;
+    padding: 5px 10px;
+    font-style: italic;
+    margin: 0;
+}
+
+.txt {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    align-self: center;
+    
+}
+
+.txt1 {
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: center;
+}
