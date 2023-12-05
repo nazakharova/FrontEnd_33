@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+main {
+    margin-top: 32%;
+}
+
+/* nav */
+header {
+    clear: both;
+}
+.nav {
+    background-color: white;
+    border-bottom: 2px solid lightgray;
+    margin: 0 auto;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav h3 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 20px 10px;
+    float: left;
+}
+
+.nav a {
+    text-decoration: none;
+    margin: 20px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.nav a:link {
+    color: #191970;
+}
+
+.nav a:visited {
+    color: #C73756;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+}
+
+.nav a:active {
+    font-size: 120%;
+    color: #080827;
+}
+
+/* seaction 1 - position */
+
+.sec_1 {
+    position: relative;
+}
+
+.sec_1 h1 {
+    font-size: 44px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+}
+.sec_1 h2 {
+    text-transform: uppercase;
+    font-size: large;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+}
+
+.sec_1 h4 {
+    color: lightgray;
+}
+.product {
+    border: 2px darkgray solid;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: top;
+    width: 200px;
+    height: 320px;
+    position: absolute;
+}
+.sec_1 h3 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 20px;
+    bottom: 350px;
+}
+.pos1 {
+    left: 21.5%;
+    bottom: 25px;
+}
+
+.pos2 {
+    left: 35%;
+    bottom: 25px;
+}
+
+.pos3 {
+    left: 48.5%;
+    bottom: 25px;
+}
+
+.pos4 {
+    left: 62%;
+    bottom: 25px;
+}
+
+.product:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.descr {
+    font-weight: bold;
+    margin: 20px auto;
+    font-size: 14px;
+    line-height: 1;
+}
+.button {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin: 25px auto 15px;
+    width: 44px;
+    padding: 7px 20px;
+    display: block;
+    border-radius: 8px;
+}
+
+.red {
+    background-color: #C73756;
+}
+.orange {
+    background-color: #D7913B;
+}
+.blue {
+    background-color: #2B6688;
+}
+.green {
+    background-color: #63BB34;
+}
+
+
+/* seaction 2 - table */
+
+.sec_2 {
+    margin: 20px auto;
+    position: relative;
+}
+
+.sec_2 table {
+    width: 80%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid darkgray;
+    margin-left: 20px;
+}
+.sec_2 caption {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.sec_2 thead, tfoot {
+    color: #111010;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color:#f2f2f2;
+    
+}
+
+.sec_2 tbody{
+    color: white;
+}
+
+td, th {
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid darkgray;
+    width: 100px;
+}
+
+tr td:first-child {
+    font-weight: bold;
+}
+
+tr th:first-child {
+   border: none;
+}
+
+tbody tr:first-child {
+    background-color: #C73756;
+    opacity: 70%;
+}
+
+tbody tr:nth-child(2) {
+    background-color: #D7913B;
+    opacity: 70%;
+}
+
+tbody tr:nth-child(3) {
+    background-color: #2B6688;
+    opacity: 70%;
+}
+
+tbody tr:nth-child(4) {
+    background-color: #63BB34;
+    opacity: 70%;
+}
+
+
+
+/* seaction 3 - indents */
+
+.sec_3 h3 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+.block {
+    display: inline-block;
+    clear: both; 
+}
+.box {
+    box-sizing: border-box;
+    float: left;
+    border: 2px darkgray dotted;
+    width: 20%;
+    margin: 20px;
+    padding: 20px;
+
+}
+.box h2, .box h3 {
+    font-family: 'Calibri', sans-serif;
+    font-weight: normal;
+}
+.sec_3 span {
+    border: 2px #D3D3D3 solid;
+    margin: 10px 0;
+    padding: 10px;
+}
+.sec_3 p {
+    font-family: 'Calibri', sans-serif;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+
+/* section 4 - tags */
+
+.sec_4 h3 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+.sec_4 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 40px;
+}
+
+.sec_4 ol {
+    margin-right: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+.sec_4 li {
+    padding: 5px 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.sec_4 .bl {
+    background-color: #2B6688;
+    color: #D3D3D3;
+}
+
+.sec_4 .ln {
+    background-color: #D7913B;
+    color: #D3D3D3;
+}
+
+
+/* section 5 -  media */
+
+.sec_5 h3 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+.sec_5 div {
+    display: flex;
+    flex: content;
+    justify-content: baseline;
+
+}
+
+.sec_5 img {
+    width: 60%;
+    margin: 10px;
+}
+
+figcaption {
+    width: 60%;
+}
+
+.sec_5 audio {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.sec_5 video {
+    width: 40%;
+    min-width: 240px; 
+    margin: 10px;   
+}
+
+/* section 7 -  text */
+
+.sec_7 h3 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+.sec_7 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    margin: 0 40px;
+}
+
+.sec_7 h2 {
+    text-align: center;
+    color: #A52A2A;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec_7 ol {
+    margin-right: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-position: inside;
+}
+
+.sec_7 li {
+    padding: 10px;
+    line-height: 1.5;
+    text-align: justify;
+    word-spacing: 2px;
+}
+.sec_7 strong {
+    color: #191970;
+    text-decoration: underline;
+}
+
+.sec_7 li:nth-child(odd) {
+    background-color: #F8F8FF;
+}
+
+
