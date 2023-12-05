@@ -1,0 +1,237 @@
+body {
+    border: 1px red solid;
+    width: 80%;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+header {
+    background-color: plum;
+    height: 200px;
+    
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white {
+    background-color: white;
+    width: 60%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black {
+    background-color: black;
+    width: 60%;
+    height: 100px;
+}
+
+/* menu */
+menu {
+    background-color: gray;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.red, .orange, .blue, .yellow {
+    width: 25%;
+    height: 100px;
+    margin-top: 10px;
+}
+.red {
+    background-color: red;
+}   
+
+.orange {
+    background-color: orange;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+main {
+    height: 350px;
+    padding: 0;
+    display: flex;
+}
+
+/* section 1 */
+
+.sec_1 {
+    background-color: green;
+    height: 350px;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sec_1 p {
+    margin-bottom: auto;
+}
+
+.lblock  {
+    background-color: orange;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.lft {
+    display: flex;
+}
+
+.lft1 {
+    background-color: pink;
+    width: 50%;
+    height: 250px;
+}
+
+.lft2 {
+    background-color: yellow;
+    width: 50%;
+    height: 250px; 
+}
+
+
+/* section 2 */
+
+.sec_2 {
+    background-color: lightblue;
+    width: 33.33%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sec_2 p {
+    margin-bottom: auto;
+}
+
+.cblock {
+    display:flex;
+    align-items: flex-end;
+}
+
+.cntr {
+    background-color: red;
+    width: 33.33%;
+    height: 300px;
+}
+
+.cntr1 {
+    background-color: yellow;
+    width: 33.33%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ab_c {
+    display: flex;
+    align-items: flex-end;
+}
+
+.a_c {
+    background-color: orange;
+    width: 50%;
+    height: 250px;
+}
+
+.b_c {
+    background-color: red;
+    width: 50%;
+    height: 150px;
+}
+
+.cntr2 {
+    background-color: orange;
+    width: 33.33%;
+    height: 300px;
+}
+
+
+
+/* section 3 */
+
+.sec_3 {
+    background-color: blue;
+    width: 33.33%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.sec_3 p {
+    margin-bottom: auto;
+}
+
+.rblock {
+    display: flex;
+    align-items: end;
+    
+}
+
+.rght {
+    background-color: lightblue;
+    width: 33.33%;
+    height: 150px;
+}
+
+.rght1 {
+    background-color: yellow;
+    width: 33.33%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.rght2 {
+    background-color: orange;
+    width: 33.33%;
+    height: 200px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sec_3 .txt, .sec_3 .txt1 {
+    background-color: black;
+    color: lightblue;
+    padding: 5px 10px;
+    font-style: italic;
+    width: 50%;
+    margin: 0;
+}
+
+.txt {
+    align-self: flex-end;
+    
+}
